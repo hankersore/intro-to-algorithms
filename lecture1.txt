@@ -1,0 +1,29 @@
+** Algorithms and Computation **
+
+why we need algorithms?:
+- solve computational problems
+- prove correctness
+- argue efficiency 
+
+Problem is binary relationship between inputs and outputs (which of the outputs are correct for given inputs).
+
+Algorithm is a function that takes inputs and maps it to a single output.
+
+Efficiency:
+- don't measure time, instead count ops (fundamental operations)
+- expect performance to depepnd on size of our input
+
+Asymptotic Notation:
+O (·) upper bound
+Ω (·) lower bounds
+θ both
+
+== Big O Time Complexity ==
+
+* Constant Time O(1) -  when the algorithm does not depend on the size of the input. (example: return the first element of an array)
+* Linear Time O(n) - when the algorithm is proportional to the size of the input. (example: return the factorial of any inputted number)
+* Logarithm Time O(log n) - when the algorithm runs for half the input size rather than the full size. (example: binary search functions)
+* Loglinear Complexity O(nlogn) - implies that logn operations will occur n times. (example: merge sort)
+* Quadratic Time O(n^2) - when the algorithm performs nested iteration, meaning having a loop in a loop. (example: selection sort, taking the smallest element in an unsorted array and bringing it to the front)
+* Polynomial Time O(n^k) - the algorithm is polynomial if for some k>0, its running time on inputs of size n is O(n^k). This includes linear, quadratic, cubic and more. On the other hand, algorithms with exponential running times are not polynomial.
+* Exponential Time O(2^n) - when the growth rate doubles with each addition to the input (n), often iterating through all subsets of the input elements. Any time an input unit increases by 1, the number of operations executed is doubled. (example: Fibonacci sequence)
