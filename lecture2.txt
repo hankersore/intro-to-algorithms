@@ -1,0 +1,25 @@
+** Data Structures and Dynamic Arrays
+
+Interface (API) vs. Data Structure
+Interface says what you want to do and DS says how you do it.
+Interface:
+- specification
+- what data you can store
+- what operations are supported & what they mean
+- problem
+Data Structure:
+- representation
+- how to store data
+- algorithms to support operations
+- solution
+
+2 main interfaces:
+- set
+- sequence
+
+2 main DS:
+- arrays
+- pointer based
+
+linked lists consist of nodes, each holding data and a reference to the next node in the sequence. Nodes, the building blocks of linked lists, are defined as objects with 'data' to store values and 'next' to point to the subsequent node. The linked list itself starts with a 'head' node, which serves as the entry point.
+Bad at RAM. Good for dynamic operations.
